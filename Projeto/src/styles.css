@@ -1,0 +1,209 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #242323;
+}
+
+img{
+
+	
+	 max-height: 100%
+}
+
+
+
+header.topo .container-fluid{
+
+
+background-color:#D82525;
+
+text-align: center;
+
+
+}
+
+
+header img.logo{
+
+width: 150px;
+height:  60px;
+
+margin-bottom: 5px;
+
+
+}
+
+
+
+header form input{
+    margin-top: 15px;
+	background-color: #ffffff;
+	border:  0px;
+	border-radius: 10px;
+	width: 250px;
+	padding:6px;
+
+}
+
+header form input:focus{
+
+	color: #000000;
+}
+
+header form button{
+	margin-top: 15px;
+    border-radius:  10px;
+	background-color: #000000;
+	color: #ffffff;
+	border:2px dotted #FF0000;
+	margin-left: -80px;
+
+}
+
+header img.imghd{
+  
+    margin-top: 15px;
+	width: 40px;
+	height: 40px;
+
+}
+
+
+section.carousel{
+
+  background-image: url("/assets/images/topo2.png");
+  width: 100%;
+
+  margin-left: -2px;
+
+}
+
+section.carousel .container-fluid{
+
+
+  position: relative;
+  width: 100%;
+
+  text-align: center;
+  overflow: hidden;
+    
+
+
+}
+
+@media (min-width: 768px) {
+
+		section.carousel .container-fluid{
+
+			height: 120px;
+
+
+		}
+
+	}
+
+
+	@media (min-width: 900px) {
+
+		section.carousel .container-fluid{
+
+			height: 250px;
+
+		}
+
+	}
+
+
+	@media (min-width: 1200px) {
+
+		section.carousel .container-fluid{
+
+			height: 340px;
+
+		}
+
+	}
+
+
+
+
+
+
+section.carousel .carousel-indicators button 
+{
+ 
+  z-index:  3;
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+ 
+ 
+}
+
+
+
+section.carousel .carousel-indicators button.active {
+
+	background-color: red;
+}
+
+section.carousel .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  
+ height: 40px;
+  width: 40px;
+  background-size: 100%, 100%;
+  background-color: white;
+  border: 1px solid red;
+}
+
+section.carousel .carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 25px;
+  color: red;
+  
+}
+
+section.carousel .carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 25px;
+  color: red;
+}
+
+
+
+
+section.publicacoes .container-fluid{
+
+	position: relative;
+	max-width: 100%;
+
+	height: 200px;
+	float: left;
+	background-color: #242323;
+}
+
+
+footer .container-fluid{
+	
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	color: #ffffff;
+	background-color: #302F2F;
+	text-align: center;
+}
+footer .footer-text{
+
+	text-align:  left;
+	margin-left:  2%;
+}
+
+footer img.social1, .social2, .social3{
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+}
+

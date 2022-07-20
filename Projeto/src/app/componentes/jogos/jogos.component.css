@@ -1,0 +1,78 @@
+#botao{
+    background-color: #D82525;
+    color: white;
+    border:0;
+    text-align: center;
+    border-radius: 25%;
+}
+.card{
+    color: white;
+    text-align: center;
+    background-color: #242323;
+    border: 0;
+}
+
+.card img{
+    width: 270px;
+}
+
+.controls{
+
+    color: white;
+}
+
+section.carousel{
+
+    background-color: blue;
+    background-image: url(./../../../assets/images/topo2.png);
+    width: 100%;
+  
+    margin-left: -2px;
+  
+  }
+
+  section.carousel .container-fluid{
+
+
+    position: relative;
+    width: 100%;
+  
+    text-align: center;
+    overflow: hidden;
+      
+  
+  
+  }
+  
+  @media (min-width: 768px) {
+  
+          section.carousel .container-fluid{
+  
+              height: 120px;
+  
+  
+          }
+  
+      }
+  
+  
+      @media (min-width: 900px) {
+  
+          section.carousel .container-fluid{
+  
+              height: 250px;
+  
+          }
+  
+      }
+  
+  
+      @media (min-width: 1200px) {
+  
+          section.carousel .container-fluid{
+  
+              height: 340px;
+  
+          }
+  
+      }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+<body>
+
+ <header class="topo">
+    
+    <div class="container-fluid">
+       
+        <div class="row " gx-5 justify-content-center>
+
+        <div class="col-lg-4 col-md-12">
+
+          <a [routerLink]="['/jogos']"> <img src="../assets/images/logo.png" class="logo" title="Home"></a>
+
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+
+             
+                <form>
+                    <input type="text" placeholder="Search Game..." required>
+                    
+                    <button type="submit">SEARCH</button>
+
+                </form>
+
+
+        </div>
+
+        <div class="col-lg-4 col-md-4">
+             <a [routerLink]="['/login']"><img src="../assets/images/login.png" class="imghd" title="Login"></a>
+         </div>
+
+    </div>
+</div>
+
+</header>
+
+
+
+    <main>
+
+
+        <section class="publicacoes">
+            
+        
+          <router-outlet></router-outlet>
+              
+            
+          
+
+        </section>
+
+   
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <p>Coded by Denise Moraes Pinho - Test for Job Position!</p> 
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+                <img src="../assets/images/facebook.png" class="social1" title="Facebook"> <img src="../assets/images/instagram.png" class="social2" title="Instagram"> <img src="../assets/images/twitter.png" class="social3" title="Twitter">
+            </div>
+
+  </div>
+</div>
+    </footer>
+
+</body>
+</html>
